@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Font Awesome</title>
+	<!--link to font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<!-- Table styling using css, border-->
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+	<p>Font Awesome Icons</p>
+	<i class="fas fa-binoculars fa-2x"></i>
+	<i class="fas fa-binoculars fa-3x"></i>
+	<i class="fas fa-binoculars fa-5x"></i>
+	<i class="fas fa-binoculars fa-9x"></i>
+	<i class="fas fa-address-card fa-9x"></i>
+
+	<br>
+	<ul>		
+    <li>Vegetables</li>	
+    <li>Fruit
+       <ol>
+       	<li>Blueberries</li>
+	  	<li>Bananas</li>
+       </ol>
+    </li>
+	</ul>
+
+	<ol>		
+    <li>Vegetables</li>	
+    <li>Fruit
+       <ul>				
+          <li>Blueberries</li>
+	  <li>Bananas</li>
+       </ul>
+    </li>
+	</ol>
+
+	<br>
+	<h1>Links and Icons</h1>
+	<a href = "http://www.umich.edu"> click </a>
+	<a href="mailto:irenetanglf@gmail.com?subject=Hi&body=How%20are%20you">Email</a>
+	<a href="mailto:shayhowe@awesome.com?subject=Hi&body=How%20are%20you">Email</a>
+	<a href="https://www.pinterest.com/" aria-label="Pinterest">
+		<i class="fab fa-pinterest fa-3x"></i>
+	</a>
+	<a href="https://www.facebook.com/" aria-label="Facebook">
+		<i class="fab fa-facebook fa-3x"></i>
+	</a>
+	<a href="https://sg.linkedin.com/" aria-label="LinkedIn">
+		<i class="fab fa-linkedin fa-3x"></i>
+	</a>
+	<h1>Video autoplay</h1>
+	<video src = "imgs/WhatsApp Video 2021-01-01 at 10.33.10 AM.mp4" width ="400" autoplay>Your brower does not support the <code>video</code>element.
+	</video>
+	<br>
+	<h1>Video with Control</h1>
+	<video src = "imgs/WhatsApp Video 2021-01-01 at 10.33.10 AM.mp4" width ="400" controls>Your brower does not support the <code>video</code>element.
+	</video>
+	<br>
+	<h1>Video with Control Loop</h1>
+	<video src = "imgs/WhatsApp Video 2021-01-01 at 10.33.10 AM.mp4" width ="400" controls loop>Your brower does not support the <code>video</code>element.
+	</video>
+	<br>
+	<h1>Owl's Christmas Audio with Control timing</h1>
+	<audio src = "imgs/audio_7fff5dc47d.mp3#t=1:10" controls>Owl Christmas but set to start at the exciting part!</audio>
+	<br>
+	<h1>Audio with Control without timing</h1>
+	<audio src = "imgs/audio_7fff5dc47d.mp3" controls>Owl's Christmas </audio>
+	<br>
+	<!-- table border attribute for frame. tr=table rows, th-table header, td=table cells-->
+	<h1>Tables</h1>
+	
+	<table>
+		<caption><p>Table 1 </p><p>Primary school pupils' parents contact</p></caption>
+		<tr><th>Child's name</th><th>Parents Name</th><th>Primary level</th></tr>
+		<tr>
+			<td rowspan="2">Catherine</td>
+			<td>Michael</td>
+			<td rowspan="2">P4</td>
+		</tr>
+		<tr><td>Collean McCarthy</td></tr>
+
+		<tr>
+			<td rowspan="2">TingYi</td><td>Jackie Chan</td><td rowspan="2">P6</td>
+		</tr>
+		<tr><td>Irene Tang</td></tr>
+		<tr>
+			<td rowspan="2">Xiao Min</td><td>Christine Ng</td><td rowspan="2">P1</td>
+		</tr>
+		<tr><td>Joseph Tang</td></tr>
+
+	</table>
+	<table>
+ 		<tr><th>Name</th><th>Age</th><th>Team</th></tr>
+  		<tr><td>Colleen</td><td>26</td><td>Browns</td></tr>
+	</table>
+	<br>
+	<table>
+  		<tr><th>Name</th><td>Colleen</td></tr>
+  		<tr><th>Age</th><td>26</td></tr>
+  		<tr><th>Team</th><td>Browns</td></tr>
+	</table>
+<h1>Pictures</h1>
+<figure>
+	<img src="imgs/image1.jpeg" style="width:50%" alt="relative size"><figcaption>relative image size</figcaption>
+</figure>
+<figure>
+	<img src="imgs/image1.jpeg" width="500" alt="set image"><figcaption>set image size</figcaption>
+</figure>
+<figure>
+	<img src="imgs/image1.jpeg" width="500" height="100" alt="Skewed size"><figcaption>Skewed image size</figcaption>
+</figure>
+<figure>
+	<img src="imgs/image1.jpeg"	alt="default size"><figcaption><p>default image size</p></figcaption>
+</figure>
+
+</body>
+</html>
